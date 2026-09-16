@@ -125,7 +125,6 @@ def plc_thread():
                 f"limit={speed_limit} "
                 f"no_pilot={no_pilot}"
             )
-
             # ==================================================
             # TRYB
             # ==================================================
@@ -182,7 +181,7 @@ def plc_thread():
             except:
                 pass
 
-        time.sleep(0.1)
+        time.sleep(0.05)
 
 # ==========================================================
 # START PLC THREAD
